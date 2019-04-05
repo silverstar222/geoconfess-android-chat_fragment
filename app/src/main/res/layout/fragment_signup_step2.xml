@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footerheight"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/footerimage"
+        android:visibility="visible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottombtn"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo" />
+            <EditText
+                android:id="@+id/et_name"
+                style="@style/AppTheme.Widget.EditText.Helvetica"
+                android:background="@drawable/editext_selector"
+                android:hint="@string/surname"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:layout_marginTop="@dimen/material_16_dp"/>
+
+            <EditText
+                android:id="@+id/et_surname"
+                style="@style/AppTheme.Widget.EditText.Helvetica"
+                android:background="@drawable/editext_selector"
+                android:hint="@string/name"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" />
+
+            <EditText
+                android:id="@+id/et_email"
+                style="@style/AppTheme.Widget.EditText.Helvetica"
+                android:background="@drawable/editext_selector"
+                android:hint="@string/email" />
+
+            <EditText
+                android:id="@+id/et_phon"
+                style="@style/AppTheme.Widget.EditText.Helvetica"
+                android:background="@drawable/editext_selector"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                android:maxLength="10" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/default_padding_xlarge"
+                android:text="* Facultatif" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bottombtn"
+        style="@style/AppTheme.Widget.Button.Full"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/grey_btn_selector"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="@string/bottom_button_label"
+        android:textAllCaps="true" />
+</RelativeLayout>

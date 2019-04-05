@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">SOSConfession</string>
+    <string name="title_activity_login">SOSConfession</string>
+
+    <!-- Strings related to login -->
+
+    <string name="prompt_email">Adresse email</string>
+
+    <string name="user_email">Email</string>
+    <string name="error_msg">Un compte avec cet email existe déjà.</string>
+    <string name="surname">Nom</string>
+    <string name="name">Prénom</string>
+    <string name="email">Adresse mail</string>
+    <string name="phone">Téléphone*</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+    <string name="phonenew">Téléphone</string>
+    <string name="prompt_password">Mot de passe</string>
+    <string name="gmail_string">Connect with Google</string>
+    <string name="facebook_string">Connect with Facebook</string>
+    <string name="forgot_password">Mot de passe oublié? </string>
+    <string name="signup">S\'inscrire sur SOSConfession</string>
+
+    <!--Service Tracking Toasts-->
+    <string name="service_start_toast_message">Merci d\'avoir activé la géolocalisation! Vous recevrez une notification dès qu\'un pénitent vous enverra une demande de confession.</string>
+    <string name="geo_location">Géolocalisation </string>
+    <string name="no_internet_message">Impossible de se connecter à internet.</string>
+    <string name="no_gps_message">GPS is off</string>
+    <string name="profile_success">Profil mis à jour</string>
+    <string name="login_button_text">se connecter</string>
+    <string name="text_signup_header_label">QUI SUIS-JE?</string>
+    <string name="text_button_priest">UN CONFESSEUR</string>
+    <string name="text_or">ou</string>
+    <string name="text_button_user">UN FIDELE</string>
+    <string name="forgot_password_button_label">Confirmer</string>
+    <string name="lbl_priest_title">Confesseur</string>
+    <string name="bottom_button_label">Je m\'inscris</string>
+    <string name="take_picture">Prendre une photo</string>
+    <string name="chose_picture">Choisir dans la galerie</string>
+    <string name="amazon_image_upload">Preparing image for upload</string>
+    <string name="try_again">Please try again in few sec</string>
+    <string name="enter_pass">Please enter a password</string>
+    <string name="password_not_matching">Password miss match</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_button_chat">Chat</string>
+    <!--<string name="text_button_send_request">Send request</string>-->
+    <string name="text_button_send_request">Envoyer une demande</string>
+    <string name="text_button_find_itinerary">trouver un Itinéraire</string>
+    <string name="text_button_add_to_favorites">Add to favorites</string>
+    <string name="tracking_position_service">Tracking position service</string>
+    <string name="tracking_location">Tracking your location</string>
+    <string name="invalid_email">Please insert valid email</string>
+    <string name="wrong_phone">Phone number should be 10 or 11 digits long</string>
+    <string name="no_email">No email</string>
+    <string name="empty_field">Merci d\'enter votre adresse email.</string>
+    <string name="password_empty">Le mot de passe doit faire plus de 6 caractérés.</string>
+    <string name="internet_error">Impossible de se connecter à internet.</string>
+
+    <string name="login_failed">Login failed, please try again</string>
+    <string name="short_pass">Le mot de passe doit faire plus de 6 caractéres.</string>
+    <string name="spot_deleted">Spot deleted</string>
+    <!--
+        <string name="gps_network_not_enabled">Gps disabled. Do you want to open locations settings?</string>
+    -->
+    <string name="gps_network_not_enabled">Veuillez activer la géolocalisation dans les réglages de l’appareil pour continuer</string>
+
+    <string name="yes_button">yes</string>
+    <string name="no_button">no</string>
+    <string name="lbl_priest_address">Address</string>
+    <string name="lbl_priest_time">Time</string>
+    <string name="lbl_priest_frequency">Frequency</string>
+    <string name="demand_confession">Demande de confession</string>
+    <string name="i_m_available">Je seus disponible</string>
+    <string name="i_m_not_available">Je ne suis pas disponible</string>
+    <string name="confessor_details">Détails</string>
+    <string name="confessor_response">Réponse</string>
+    <string name="priest_home_screen_warning">Merci d\'avoir téléchargé SOSConfession! Nous vous aviserons par courriel lorsque nous aurons assez d\'utilisateurs pour l\'application pour être fonctionnel. À bientôt!</string>
+    <string name="location_name">Location name</string>
+    <string name="day_selection_warning">Not even one day selected</string>
+    <string name="nav_drawer_confession">Qu\'est-ce que la confession</string>
+    <string name="nav_drawer_make_pourquoi">Pourquoi se confesser</string>
+    <string name="nav_drawer_prepare_confession">Préparer ma confession</string>
+    <string name="nav_drawer_partager">Partager</string>
+    <string name="nav_drawer_modification">Modifications du compte</string>
+    <string name="nav_drawer_aide">Aide</string>
+    <string name="nav_drawer_faireundon">Faire un don</string>
+    <string name="nav_drawer_logout">Se déconnecter</string>dscds
+    <string name="request_sent">Demande Envoyee</string>
+    <string name="location_not_known">Your location not known</string>
+    <string name="delete_spot_dialog_title">Delete spot</string>
+    <string name="delete_spot_dialog_question">Are you sure you want to delete this spot?</string>
+    <string name="kilometers">kilomètres</string>
+    <string name="meters">mètres</string>
+    <string name="no_notifications">Vous ne disposez pas de toutes les notifications</string>
+    <string name="request_recieved">Demande reçue</string>
+    <string name="request_refused">Demande refusée</string>
+    <string name="request_accepted">Demande acceptée</string>
+    <string name="respond">Répondre</string>
+    <string name="confession_accepted">Confession acceptée</string>
+    <string name="confesion_denied">Confession refusée</string>
+    <string name="provide_priest_certificate">Please provide priest certificate</string>
+    <string name="check_your_email">L\'adresse email n\'existe pas</string>
+    <string name="chat">Voir conversation</string>
+    <string name="hint_message">Message</string>
+    <string name="chat_send">Envoyer</string>
+
+    <!--Validation alert message-->
+    <string name="email_valid_titile">Adresse mail</string>
+    <string name="email_valid_message">Votre adresse email n\'est pas valide!</string>
+    <string name="mobnum_notvalid_title">Mot de passe</string>
+    <string name="mobnum_notvalid">num portable pas valide</string>
+    <string name="pass_notmatch_title">num portable pas valide</string>
+    <string name="imageupload_title">Celebret</string>
+    <string name="imageupload_notvalid">Veuillez uploader votre celebret pour continuer.</string>
+    <string name="password_confirm_title">Confirmation mot de passe</string>
+    <string name="password_confirm_messg">Let mots de passe doivent étre identiques.</string>
+    <string name="forgotpasswd_messg">Un email vous a été envoyé pour réinitialiser votre mot de passe.</string>
+    <string name="incorrect_user">Email ou mot de passe incorrect.</string>
+    <string name="confessure">Confesseur</string>
+    <string name="see_details">Voir la fiche</string>
+    <string name="profile_error">Tous les champs sont obligatoires.</string>
+    <string name="error">Erreur</string>
+
+    <string name="edit">Edit</string>
+    <string name="ok">Oui</string>
+    <string name="cancel">Non</string>
+    <string name="warning">Warning</string>
+    <string name="enter_spotname">Type the Spot name</string>
+    <string name="se_d_connecter">Se déconnecter</string>
+    <string name="en_attente_de_validation">En attente de validation</string>
+    <string name="invalid_email_add">S\'il vous plaît entrez email</string>
+    <string name="first_name">S\'il vous plaît entrez le prénom</string>
+    <string name="name_txt">S\'il vous plaît entrez le nom</string>
+    <string name="last_name">S\'il vous plaît entrez nom</string>
+    <string name="require_field">Veuillez remplir les champs requis</string>
+    <string name="first_name_title">Prénom</string>
+
+</resources>

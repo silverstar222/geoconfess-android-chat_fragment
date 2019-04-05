@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/lbl_signup_header2"
+        style="@style/AppTheme.Widget.TextView"
+        android:layout_marginTop="100dp"
+        android:text="Je propose"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_size_xxlarge"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_signup_header"
+        style="@style/AppTheme.Widget.TextView"
+        android:layout_below="@+id/lbl_signup_header2"
+        android:text="Une confession"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_size_xxlarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_spot"
+        style="@style/AppTheme.Widget.Button.adventpro"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lbl_signup_header"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/jre_btn_selector"
+        android:text="Je reste au mÉme endroit"
+        android:textAllCaps="true"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/lbl_or"
+        style="@style/AppTheme.Widget.TextView"
+        android:layout_below="@+id/btn_spot"
+        android:layout_marginTop="15dp"
+        android:text="@string/text_or"
+        android:textSize="@dimen/font_size_medium_3" />
+
+    <Button
+        android:id="@+id/btn_livetracking"
+        style="@style/AppTheme.Widget.Button.adventpro"
+        android:layout_below="@+id/lbl_or"
+        android:layout_marginTop="15dp"
+        android:text="JE SUIS MOBILE"
+
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

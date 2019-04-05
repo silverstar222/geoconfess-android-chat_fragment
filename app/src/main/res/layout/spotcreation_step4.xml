@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/actionbar_size"
+    android:background="#f1f1f1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_tostep5"
+                style="@style/AppTheme.Widget.Button.adventpro"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="40dp"
+                android:background="@color/colorPrimary"
+                android:text="CRÉER UNE RÉCURRENCE"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/lbl_or"
+                style="@style/AppTheme.Widget.TextView"
+                android:layout_below="@+id/btn_tostep5"
+                android:layout_marginTop="15dp"
+                android:text="ou"
+                android:textSize="@dimen/font_size_medium_3" />
+
+            <TextView
+                android:id="@+id/date"
+                style="@style/AppTheme.Widget.Button.adventpro"
+                android:layout_below="@+id/lbl_or"
+                android:layout_marginTop="15dp"
+                android:background="#f6afb2"
+                android:gravity="start|center_vertical"
+                android:hint="Date"
+                android:padding="10dp"
+                android:textColor="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textSize="18sp" />
+
+            <LinearLayout
+
+                android:id="@+id/linear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date"
+                android:layout_marginTop="40dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+
+
+                    android:text="DE"
+                    android:textColor="#d3d3d3" />
+
+                <TextView
+                    android:id="@+id/fromhour"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:background="#d3d3d3"
+                    android:gravity="center"
+                    android:text="12"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/drop1"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dropdownarrow"></ImageView>
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textColor="#d3d3d3"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fromminute"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:background="#d3d3d3"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/drop2"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dropdownarrow"></ImageView>
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linear"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="30dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+
+
+                    android:text="á"
+                    android:textColor="#d3d3d3" />
+
+                <TextView
+                    android:id="@+id/tohour"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:background="#d3d3d3"
+                    android:gravity="center"
+                    android:text="12"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/drop3"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dropdownarrow"></ImageView>
+
+                <TextView
+                    android:layout_width="20dp"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:text=":"
+                    android:textColor="#d3d3d3"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tominute"
+                    android:layout_width="40dp"
+                    android:layout_height="25dp"
+                    android:background="#d3d3d3"
+                    android:gravity="center"
+                    android:text="30"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:id="@+id/drop4"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dropdownarrow"></ImageView>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottombtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#a7a7a7"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/add"
+
+            ></ImageView>
+
+        <TextView
+            style="@style/AppTheme.Widget.TextView"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:text="AJOUTER"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_xxlarge"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            style="@style/AppTheme.Widget.TextView"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:text="UN"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_xxlarge"
+            android:textStyle="normal"
+
+            />
+
+        <TextView
+            style="@style/AppTheme.Widget.TextView"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="start"
+            android:text="LIEU"
+            android:textColor="@color/white"
+
+            android:textSize="@dimen/font_size_xxlarge"
+            android:textStyle="bold"
+
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

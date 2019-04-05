@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E74654</color>
+    <color name="colorPrimaryDark">#E74654</color>
+    <color name="colorAccent">#f9b3b8</color>
+    <color name="red_edit_text_background">#EC7A82</color>
+    <color name="text_dark_red">#E8453C</color>
+    <color name="colorGreyText">#9A9A9A</color>
+    <color name="colorBlackText">#000000</color>
+    <color name="chatColorText">#646464</color>
+    <color name="colorGreyTextHint">#979896</color>
+    <color name="nav_draver_gray">#A5A5A5</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="text_hint_gray">#CCCCCC</color>
+    <color name="white">#ffffff</color>
+    <color name="whitegrey">#f0f0f0</color>
+
+
+    <color name="lightgray">#5e6669</color>
+    <color name="red">#cd4132</color>
+    <color name="darkRed">#d25446</color>
+    <color name="blue">#32528d</color>
+    <color name="darkBlue">#355797</color>
+    <color name="shadedBlue">#4a94b1</color>
+    <color name="black">#000000</color>
+    <color name="black_transparent">#70000000</color>
+
+
+    <color name="google_red">#BF2C26</color>
+
+    <color name="dark_grey">#a7a7a7</color>
+    <color name="transparent_dark_grey">#d6a7a7a7</color>
+    <color name="transparent_warning_dark_grey">#80000000</color>
+
+
+    <color name="facebook_blue">#263E7A</color>
+</resources>

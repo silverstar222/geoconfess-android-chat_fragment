@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="@dimen/actionbar_size"
+    android:orientation="vertical"
+    tools:context=".fragments.NotificationFragment">
+
+    <TextView
+        android:id="@+id/no_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/material_40_dp"
+        android:text="@string/no_notifications"
+        android:textAlignment="center"
+        android:textColor="@color/colorGreyText"
+        android:textSize="@dimen/font_size_small" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/notification_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:scrollbars="vertical"></android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

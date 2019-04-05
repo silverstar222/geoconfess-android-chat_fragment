@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/actionbar_size"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewLogo"
+            android:layout_width="@dimen/material_64_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_24_dp"
+            android:src="@drawable/ic_logo_big" />
+
+        <TextView
+            android:id="@+id/txt_priest_name"
+            style="@style/AppTheme.Widget.TextView"
+            android:layout_marginTop="@dimen/material_4_dp"
+            android:text="Benjamin"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/font_size_xxlarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_priest_title"
+            style="@style/AppTheme.Widget.TextView"
+            android:text="@string/lbl_priest_title"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/txt_priest_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_priest_address"
+            android:textSize="@dimen/app_font_10sp" />
+
+        <TextView
+            android:id="@+id/txt_priest_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_priest_time"
+            android:textSize="@dimen/app_font_10sp" />
+
+        <TextView
+            android:id="@+id/txt_priest_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_priest_frequency"
+            android:textSize="@dimen/app_font_10sp" />
+
+        <LinearLayout
+            android:id="@+id/btn_user_send_request"
+            style="@style/AppTheme.Widget.Button.adventpro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_40_dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/material_8_dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:src="@drawable/ic_mail" />
+
+            <TextView
+                style="@style/AppTheme.Widget.Button.adventpro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/material_8_dp"
+                android:layout_marginRight="@dimen/material_0_dp"
+                android:clickable="false"
+                android:text="@string/text_button_send_request"
+                android:textAllCaps="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_user_find_itinerary"
+            style="@style/AppTheme.Widget.Button.adventpro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_16_dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/material_8_dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:src="@drawable/ic_search" />
+
+            <TextView
+                style="@style/AppTheme.Widget.Button.adventpro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/material_8_dp"
+                android:layout_marginRight="@dimen/material_0_dp"
+                android:clickable="false"
+                android:text="@string/text_button_find_itinerary"
+                android:textAllCaps="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_user_add_to_favorites"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/material_8_dp"
+            android:background="@drawable/gray_button_selector"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/material_8_dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:src="@drawable/ic_favorite" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/material_8_dp"
+                android:clickable="false"
+                android:text="@string/text_button_add_to_favorites" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

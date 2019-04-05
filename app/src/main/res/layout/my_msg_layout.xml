@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginLeft="@dimen/material_32_dp"
+        android:background="@drawable/ic_right_buble"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/my_msg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/material_20_dp"
+            android:paddingLeft="@dimen/material_20_dp"
+            android:paddingRight="@dimen/material_20_dp"
+            android:paddingTop="@dimen/material_20_dp"
+            android:textColor="@android:color/white"
+            tools:text="Some not important" />
+
+    </LinearLayout>
+</FrameLayout>

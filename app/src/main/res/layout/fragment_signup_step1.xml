@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footerheight"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/footerimage"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/lbl_signup_header"
+        style="@style/AppTheme.Widget.TextView"
+        android:layout_marginTop="50dp"
+        android:text="@string/text_signup_header_label"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/font_size_xxlarge"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_priest"
+        style="@style/AppTheme.Widget.Button.adventpro"
+        android:layout_below="@+id/lbl_signup_header"
+        android:layout_marginTop="60dp"
+        android:text="@string/text_button_priest"
+        android:textAllCaps="true" />
+
+    <TextView
+        android:id="@+id/lbl_or"
+        style="@style/AppTheme.Widget.TextView"
+        android:layout_below="@+id/btn_priest"
+        android:layout_marginTop="15dp"
+        android:text="@string/text_or"
+        android:textSize="@dimen/font_size_medium_3" />
+
+    <Button
+        android:id="@+id/btn_user"
+        style="@style/AppTheme.Widget.Button.adventpro"
+        android:layout_below="@+id/lbl_or"
+        android:layout_marginTop="15dp"
+        android:text="@string/text_button_user"
+        android:textAllCaps="true" />
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_warning"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent_warning_dark_grey"
+    android:visibility="gone">
+
+
+    <TextView
+        android:id="@+id/priest_warning_log_off"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:gravity="top|left"
+        android:padding="@dimen/material_8_dp"
+        android:text="@string/se_d_connecter"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_large"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/priest_login_warning"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/actionbar_size"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/material_8_dp"
+        android:text="@string/en_attente_de_validation"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_large"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</FrameLayout>

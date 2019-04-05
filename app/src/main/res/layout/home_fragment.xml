@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/actionbar_size" />
+
+    <TextView
+        android:id="@+id/priest_login_warning"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_bar"
+        android:layout_marginTop="@dimen/actionbar_size"
+        android:background="@color/transparent_dark_grey"
+        android:clickable="true"
+        android:gravity="center"
+        android:padding="@dimen/material_8_dp"
+        android:text="@string/priest_home_screen_warning"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_size_large"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+</RelativeLayout>

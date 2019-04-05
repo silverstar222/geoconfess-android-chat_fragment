@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="naw_drawer_items">
+        <item>@string/nav_drawer_confession</item>
+        <item>@string/nav_drawer_make_pourquoi</item>
+        <item>@string/nav_drawer_prepare_confession</item>
+        <item>@string/nav_drawer_partager</item>
+        <item>@string/nav_drawer_modification</item>
+       <!-- <item>@string/nav_drawer_aide</item>-->
+        <item>@string/nav_drawer_faireundon</item>
+        <item>@string/nav_drawer_logout</item>
+
+    </string-array>
+
+    <string-array name="options_choose_image">
+        <item>@string/take_picture</item>
+        <item>@string/chose_picture</item>
+    </string-array>
+</resources>

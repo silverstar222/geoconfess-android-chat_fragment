@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginRight="@dimen/material_32_dp"
+        android:background="@drawable/ic_left_buble"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/foreign_msg_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:paddingBottom="@dimen/material_20_dp"
+            android:paddingLeft="@dimen/material_20_dp"
+            android:paddingRight="@dimen/material_20_dp"
+            android:paddingTop="@dimen/material_20_dp"
+            android:textColor="@color/colorGreyText"
+            tools:text="Some not important text about msg or maybe im" />
+
+    </LinearLayout>
+</FrameLayout>

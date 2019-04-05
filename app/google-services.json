@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "160514537222",
+    "firebase_url": "https://geoconfess-12879.firebaseio.com",
+    "project_id": "geoconfess-12879",
+    "storage_bucket": "geoconfess-12879.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160514537222:android:489eae833242d1ed",
+        "android_client_info": {
+          "package_name": "txlabz.com.geoconfess"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "160514537222-q9bmqp36lfvb633hg83opjg02fl6arlu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "txlabz.com.geoconfess",
+            "certificate_hash": "AE033502CD4CF872FB38D85DDCABBDD2D48FFBF0"
+          }
+        },
+        {
+          "client_id": "160514537222-0ru76ogcrv7kl9dv20rv4qeps7iqahjr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyKNC_xOty3WT1_Mw_9nTT35wlH4-cxJ0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "160514537222-lptg73s9dhfvd7earmjruvad7if5j164.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.ktotv.geoconfess"
+              }
+            },
+            {
+              "client_id": "160514537222-0ru76ogcrv7kl9dv20rv4qeps7iqahjr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

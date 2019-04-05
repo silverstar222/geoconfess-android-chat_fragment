@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/material_100_dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:padding="@dimen/material_8_dp">
+
+        <ImageView
+            android:layout_width="@dimen/material_36_dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/material_16_dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="Benjamin"
+                android:textAllCaps="true"
+                android:textColor="@color/colorGreyText"
+                android:textSize="@dimen/font_size_medium_4"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/material_8_dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="demande une confession"
+                android:textAllCaps="true"
+                android:textColor="@color/colorGreyText"
+                android:textSize="@dimen/font_size_small_1" />
+
+            <TextView
+                android:id="@+id/txt_distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="a 300 metres"
+                android:textColor="@color/colorGreyText"
+                android:textSize="@dimen/app_font_10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/action_linear_layout"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/material_16_dp"
+            android:paddingLeft="@dimen/material_16_dp"
+            android:paddingTop="@dimen/material_16_dp">
+
+            <TextView
+                android:id="@+id/priest_request_list_item_action"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confessor_details"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_arrow" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/material_1_dp"
+        android:layout_below="@id/mainlayout"
+        android:background="@color/colorGreyText" />
+
+</RelativeLayout>
